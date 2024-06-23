@@ -4,18 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome to RemoteMike</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  body { font-family: Arial, sans-serif; line-height: 1.6; }
-  .container { width: 80%; margin: auto; overflow: hidden; }
-  header { background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid; }
-  header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
-  header ul { padding: 0; list-style: none; }
-  header li { display: inline; padding: 0 20px 0 20px; }
+  body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+  .container { max-width: 1200px; margin: auto; padding: 0 20px; }
+  header { background: linear-gradient(to right, #6dd5ed, #2193b0); color: white; padding: 20px 0; }
+  header a { color: #ffffff; text-decoration: none; font-size: 18px; }
+  header ul { list-style: none; padding: 0; }
+  header li { display: inline; margin-right: 20px; }
   header #branding { float: left; }
   header #branding h1 { margin: 0; }
-  header nav { float: right; margin-top: 10px; }
-  header .highlight, header .current a { color: #e8491d; font-weight: bold; }
-  header a:hover { color: #ffffff; font-weight: bold; }
+  header nav { float: right; margin-top: 15px; }
+  header .highlight, header .current a { color: #ff9b00; font-weight: bold; }
+  header a:hover { color: #ff9b00; font-weight: bold; }
+  #showcase { background: #f7f7f7; color: #333; padding: 100px 0; text-align: center; }
+  #showcase h1 { font-size: 50px; margin-bottom: 20px; }
+  #showcase p { font-size: 20px; }
+  footer { background: #333; color: white; text-align: center; padding: 30px 0; }
+  footer p { margin: 0; }
+  @media (max-width: 768px) {
+    header #branding, header nav { float: none; text-align: center; }
+    header nav ul { padding: 0; }
+    header nav li { display: block; margin-bottom: 10px; }
+  }
 </style>
 </head>
 <body>
@@ -37,8 +48,8 @@
 
   <section id="showcase">
     <div class="container">
-      <h1>A copilot created landing page</h1>
-      <p>This is what you get on your first prompt</p>
+      <h1>Connect Anywhere, Anytime</h1>
+      <p>Join the remote revolution with RemoteMike. Your gateway to a flexible and dynamic work environment.</p>
     </div>
   </section>
 
