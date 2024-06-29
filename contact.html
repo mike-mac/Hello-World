@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Mike</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .tech-stack img {
+            width: 50px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .tech-stack img:hover {
+            transform: scale(1.2);
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .project {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Remote Mike</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#tech-stack">Tech Stack</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Remote Mike's World</h1>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mike! A tech enthusiast who loves all things nerdy and hip. From coding to gaming, and everything in between.</p>
+    </section>
+
+    <section id="tech-stack" class="section tech-stack">
+        <h2>Tech Stack</h2>
+        <img src="https://via.placeholder.com/50" alt="HTML">
+        <img src="https://via.placeholder.com/50" alt="CSS">
+        <img src="https://via.placeholder.com/50" alt="JavaScript">
+        <img src="https://via.placeholder.com/50" alt="Python">
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A cool project description goes here.</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>Another cool project description goes here.</p>
+        </div>
+        <div class="project">
+            <h3>Project Three</h3>
+            <p>Yet another cool project description goes here.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Remote Mike</p>
+        <p>
+            <a href="mailto:hello@remotemike.com">Email</a> |
+            <a href="https://twitter.com/remotemike">Twitter</a> |
+            <a href="https://github.com/remotemike">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
